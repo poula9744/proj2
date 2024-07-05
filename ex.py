@@ -26,6 +26,8 @@ print(faces1[0])
 rimg = app.draw_on(img1, faces1)
 cv2.imwrite("./iu_output.jpg", rimg)
 
+
+
 # then print all-to-all face similarity 여러개의 얼굴
 # feats = []
 # for face in faces:
